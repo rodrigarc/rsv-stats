@@ -9,5 +9,5 @@
 
 ## Statistical analysis description
 
-This repository provides a the raw dataset used to perform statistical comparisons together with the the code, plots, and statistical analysis performed for the plasma antibody profiling and memory B cell clonality. The [report shown here](https://rodrigarc.github.io/rsv-stats/rsv_statistical_analysis.html) breakdowns a selection of the statistical analyses including, packages, functions, and detailed statistics tables about the comparisons.
+This repository provides a the raw dataset used to perform statistical comparisons together with the the code, plots, and statistical analysis performed for the plasma antibody profiling and memory B cell clonality. The [report shown here](https://rodrigarc.github.io/rsv-stats/rsv_statistical_analysis.html) breakdowns a selection of the statistical analyses including, packages, functions, and detailed statistics tables about the comparisons. For all the statistical analysis, we considered adjusted p-values < 0.05 as significant.
 
