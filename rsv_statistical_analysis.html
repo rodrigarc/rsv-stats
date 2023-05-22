@@ -11,7 +11,7 @@
 
 <meta name="author" content="Rodrigo Arcoverde Cerveira and Sebastian Ols" />
 
-<meta name="date" content="2023-05-19" />
+<meta name="date" content="2023-05-22" />
 
 <title>Statistical analysis: Multivalent Antigen Display on Nanoparticles Elicits Diverse and Broad B cell Responses</title>
 
@@ -1712,7 +1712,7 @@ border-radius: 0px;
 <h1 class="title toc-ignore">Statistical analysis: Multivalent Antigen
 Display on Nanoparticles Elicits Diverse and Broad B cell Responses</h1>
 <h4 class="author">Rodrigo Arcoverde Cerveira and Sebastian Ols</h4>
-<h4 class="date">2023-05-19</h4>
+<h4 class="date">2023-05-22</h4>
 
 </div>
 
@@ -3912,21 +3912,22 @@ recon_res %&gt;%
 <div id="shm-of-all-sequences-fig.-s4k" class="section level3" number="5.4.1">
 <h3><span class="header-section-number">5.4.1</span> SHM of all
 sequences (Fig. S4K)</h3>
-<p>Here the SHM for all antigen-specific sequences is combined by group.
-The two groups were compared against each other at each of two time
-points for three different specificities: Total F, preF, or preF/postF
-(DP). For this comparison, due to the large n size a normal distribution
-can be assumed, thus a two-tailed Student’s t-test was employed. In
-addition to t-test, we have also calculated the Cohen’s d (1988) to
-estimate the effect size between the two group means. This means a total
-of six (6) comparisons were made. To correct for these multiple
-comparisons, the false discovery rate correction by Benjamini &amp;
-Hochberg (1995) was applied (alpha = 0.05). Also, the p-values and
-adjusted p-values for each comparison are listed in the table that
-follows. Due to the very large sample size, small differences can lead
-to extremely small p-values. However, the magnitude of the effect size
-was small for most comparisons, suggesting that these small differences
-might not have a meaningful biological impact.</p>
+<p>Here, the SHM for all antigen-specific sequences is combined by
+group. The two groups were compared against each other at each of two
+time points for three different specificities: Total F, preF, or
+preF/postF (DP). For this comparison, a normal distribution can be
+assumed due to the large number of sequences. Thus, a two-tailed
+Student’s t-test was employed. This means a total of six (6) comparisons
+were made. To correct for these multiple comparisons, the false
+discovery rate correction by Benjamini &amp; Hochberg (1995) was applied
+(alpha = 0.05). Also, the p-values and adjusted p-values for each
+comparison are listed in the table that follows. Due to the very large
+sample size, small differences can lead to extremely small p-values.
+Therefore, we have also calculated the Cohen’s d (1988) to estimate the
+effect size between the two group means. The magnitude of the effect
+size was small for most comparisons, suggesting that these highly
+statistically significant but small differences may not have biological
+significance.</p>
 <pre class="r"><code>rds_indiv_total &lt;- rds_merge %&gt;%
   mutate(specificity_group = &quot;Total&quot;) 
 
